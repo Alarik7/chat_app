@@ -169,7 +169,7 @@ ADMIN_MEDIA_PREFIX = '/static/admin/'
 LOGIN_REDIRECT_URL = '/'
 LOGIN_URL = '/login/'
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['alarik7.pythonanywhere.com']
 
 # Import local_settings.py
 try:
