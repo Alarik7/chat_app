@@ -27,6 +27,8 @@ SECRET_KEY = 'ABC1234' #TODO Changeme
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+ALLOWED_HOSTS = ['alarik7.pythonanywhere.com']
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -169,7 +171,6 @@ ADMIN_MEDIA_PREFIX = '/static/admin/'
 LOGIN_REDIRECT_URL = '/'
 LOGIN_URL = '/login/'
 
-ALLOWED_HOSTS = ['alarik7.pythonanywhere.com']
 
 # Import local_settings.py
 try:
